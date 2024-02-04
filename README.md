@@ -88,8 +88,6 @@ Type following command to change the mode
 
 We'll import the sample databases using following command
 
-> Note: We'll import it only once.
-
 ```sql
 SOURCE /sample-db/world.sql
 ```
@@ -101,3 +99,5 @@ SOURCE /sample-db/sakila-schema.sql
 ```sql
 SOURCE /sample-db/sakila-data.sql
 ```
+
+![Import](img/import.png)

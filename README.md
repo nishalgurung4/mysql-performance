@@ -69,7 +69,7 @@ We'll be using official sample databases provided by the MySQL team. Importing s
 Let's copy sql dump to the container.
 
 ```sh
-docker cp sample-db mysql-performance-mysql-1:/sample-db
+docker cp sample-db mysql-performance-db-1:/sample-db
 ```
 
 Let's access mysql via mysql shell
@@ -101,3 +101,8 @@ SOURCE /sample-db/sakila-data.sql
 ```
 
 ![Import](img/import.png)
+
+### Some useful commands
+
+- Press `ctrl` + `L` to clear the mysqlsh screen
+- Type `\quit` to exit from the mysqlsh terminal
